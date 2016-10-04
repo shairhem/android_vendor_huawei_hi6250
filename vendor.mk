@@ -15,7 +15,12 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:override/vendor/lib/libbt-vendor.so \
         vendor/huawei/hi6250/etc/bluetooth/bt_did.conf:override/etc/bluetooth/bt_did.conf \
         vendor/huawei/hi6250/etc/bluetooth/bt_stack.conf:override/etc/bluetooth/bt_stack.conf \
-        vendor/huawei/hi6250/etc/bluetooth/auto_pair_devlist.conf:override/etc/bluetooth/auto_pair_devlist.conf
+        vendor/huawei/hi6250/etc/bluetooth/auto_pair_devlist.conf:override/etc/bluetooth/auto_pair_devlist.conf \
+        vendor/huawei/hi6250/bin/rild:override/bin/rild \
+        vendor/huawei/hi6250/lib64/libril.so:override/lib64/libril.so \
+        vendor/huawei/hi6250/lib64/librilutils.so:override/lib64/librilutils.so \
+        vendor/huawei/hi6250/lib/libril.so:override/lib/libril.so \
+        vendor/huawei/hi6250/lib/librilutils.so:override/lib/librilutils.so
 
 #
 #
