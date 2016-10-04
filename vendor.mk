@@ -20,7 +20,10 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libril.so:override/lib64/libril.so \
         vendor/huawei/hi6250/lib64/librilutils.so:override/lib64/librilutils.so \
         vendor/huawei/hi6250/lib/libril.so:override/lib/libril.so \
-        vendor/huawei/hi6250/lib/librilutils.so:override/lib/librilutils.so
+        vendor/huawei/hi6250/lib/librilutils.so:override/lib/librilutils.so \
+        vendor/huawei/hi6250/lib/libsensorservice.so:override/lib/libsensorservice.so \
+        vendor/huawei/hi6250/lib64/libsensorservice.so:override/lib64/libsensorservice.so
+
 
 #
 #
