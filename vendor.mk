@@ -1455,7 +1455,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hw/gralloc.hi6250.so:system/lib64/hw/gralloc.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
         vendor/huawei/hi6250/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
-        vendor/huawei/hi6250/lib64/hw/camera.hi6250.so:system/lib64/hw/camera.hi6250.so \
+        vendor/huawei/hi6250/lib64/hw/camera.hi6250.so:system/lib64/hw/camera.hi6250.so.bak \
         vendor/huawei/hi6250/lib64/hw/copybit.hi6250.so:system/lib64/hw/copybit.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/bastet.hi6250.so:system/lib64/hw/bastet.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/sound_trigger.primary.default.so:system/lib64/hw/sound_trigger.primary.default.so \
@@ -1746,7 +1746,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/hw/keystore.hi6250.so:system/lib/hw/keystore.hi6250.so.bak \
         vendor/huawei/hi6250/lib/hw/gralloc.hi6250.so:system/lib/hw/gralloc.hi6250.so \
         vendor/huawei/hi6250/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
-        vendor/huawei/hi6250/lib/hw/camera.hi6250.so:system/lib/hw/camera.hi6250.so \
+        vendor/huawei/hi6250/lib/hw/camera.hi6250.so:system/lib/hw/camera.hi6250.so.bak \
         vendor/huawei/hi6250/lib/hw/copybit.hi6250.so:system/lib/hw/copybit.hi6250.so \
         vendor/huawei/hi6250/lib/libmedia_jni.huawei.so:system/lib/libmedia_jni.huawei.so \
         vendor/huawei/hi6250/lib/libgralloc_ext.default.so:system/lib/libgralloc_ext.default.so \
