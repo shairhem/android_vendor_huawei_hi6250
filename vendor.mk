@@ -1378,6 +1378,58 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hwcam/hwcam.hi6250.VENUS.s.OV8856_SUNNY.so:system/lib64/hwcam/hwcam.hi6250.VENUS.s.OV8856_SUNNY.so \
         vendor/huawei/hi6250/lib64/hwcam/hwcam.hi6250.DALLAS.s.IMX219_SUNNY.so:system/lib64/hwcam/hwcam.hi6250.DALLAS.s.IMX219_SUNNY.so \
         vendor/huawei/hi6250/lib64/hwcam/hwcam.hi6250.VENUS.p.HI843_OFILM.so:system/lib64/hwcam/hwcam.hi6250.VENUS.p.HI843_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.IMX219_SUNNY.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.IMX219_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.IMX214_FOXCONN.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.IMX214_FOXCONN.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.IMX214_OFILM.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.IMX214_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.HI843_OFILM.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.HI843_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.HI843_OFILM.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.HI843_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.IMX219_LITEON.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.IMX219_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.IMX219_LITEON.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.IMX219_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.IMX219_SUNNY.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.IMX219_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.T4KA3_LITEON.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.T4KA3_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.ddt.so:system/lib/hwcam/hwcam.ddt.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.IMX214_SUNNY.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.IMX214_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.m.DALLAS.so:system/lib/hwcam/hwcam.hi6250.m.DALLAS.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.OV13850_LITEON.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.OV13850_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.OV8856_SUNNY.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.OV8856_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.IMX219_LITEON.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.IMX219_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.IMX214_OFILM.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.IMX214_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.HI843_OFILM.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.HI843_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX214_SUNNY.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX214_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX219_LITEON.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX219_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.T4KA3_LITEON.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.T4KA3_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.OV8856_SUNNY.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.OV8856_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.OV13850_LITEON.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.OV13850_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.AR1335_SUNNY.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.AR1335_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX214_OFILM.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX214_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.OV13850_OFILM.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.OV13850_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.T4KA3_LITEON.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.T4KA3_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.IMX214_FOXCONN.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.IMX214_FOXCONN.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.OV8856_SUNNY.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.OV8856_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.T4KA3_LITEON.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.T4KA3_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.T4KA3_LITEON.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.T4KA3_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.IMX214_SUNNY.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.IMX214_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.IMX219_SUNNY.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.IMX219_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.m.VENUS.so:system/lib/hwcam/hwcam.hi6250.m.VENUS.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX219_LITEON.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX219_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX214_OFILM.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX214_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX214_SUNNY.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX214_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.m.NEMO.so:system/lib/hwcam/hwcam.hi6250.m.NEMO.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.IMX219_SUNNY.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.IMX219_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX214_FOXCONN.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX214_FOXCONN.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.HI843_OFILM.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.HI843_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.T4KA3_LITEON.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.T4KA3_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.AR1335_SUNNY.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.AR1335_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.IMX219_LITEON.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.IMX219_LITEON.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.OV8856_SUNNY.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.OV8856_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.OV13850_OFILM.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.OV13850_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.p.HI843_OFILM.so:system/lib/hwcam/hwcam.hi6250.NEMO.p.HI843_OFILM.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.NEMO.s.OV8856_SUNNY.so:system/lib/hwcam/hwcam.hi6250.NEMO.s.OV8856_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX214_FOXCONN.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX214_FOXCONN.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX219_SUNNY.so:system/lib/hwcam/hwcam.hi6250.DALLAS.p.IMX219_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.s.OV8856_SUNNY.so:system/lib/hwcam/hwcam.hi6250.VENUS.s.OV8856_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX219_SUNNY.so:system/lib/hwcam/hwcam.hi6250.DALLAS.s.IMX219_SUNNY.so \
+        vendor/huawei/hi6250/lib/hwcam/hwcam.hi6250.VENUS.p.HI843_OFILM.so:system/lib/hwcam/hwcam.hi6250.VENUS.p.HI843_OFILM.so \
         vendor/huawei/hi6250/lib64/libhsa_configprocess.so:system/lib64/libhsa_configprocess.so \
         vendor/huawei/hi6250/lib64/libbastetmanager.so:system/lib64/libbastetmanager.so \
         vendor/huawei/hi6250/lib64/libhwpwmanager_jni.so:system/lib64/libhwpwmanager_jni.so \
