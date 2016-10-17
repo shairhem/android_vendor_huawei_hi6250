@@ -26,6 +26,62 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/bin/hostapd_hisi:override/bin/hostapd \
 
 
+# Meticulus:
+# Recovery blobs
+#
+#
+
+PRODUCT_COPY_FILES += \
+        vendor/huawei/hi6250/recovery/system/bin/linker64:recovery/root/system/bin/linker64 \
+        vendor/huawei/hi6250/recovery/system/lib64/libnetutils.so:recovery/root/system/lib64/libnetutils.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libf2fs_sparseblock.so:recovery/root/system/lib64/libf2fs_sparseblock.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libselinux.so:recovery/root/system/lib64/libselinux.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libwpa_client.so:recovery/root/system/lib64/libwpa_client.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libutils.so:recovery/root/system/lib64/libutils.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libkeystore_binder.so:recovery/root/system/lib64/libkeystore_binder.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libext2_uuid.so:recovery/root/system/lib64/libext2_uuid.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libnetd_client.so:recovery/root/system/lib64/libnetd_client.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libkeystore-engine.so:recovery/root/system/lib64/libkeystore-engine.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libsoftkeymasterdevice.so:recovery/root/system/lib64/libsoftkeymasterdevice.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libpcre.so:recovery/root/system/lib64/libpcre.so \
+        vendor/huawei/hi6250/recovery/system/lib64/liblog.so:recovery/root/system/lib64/liblog.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libchrlog.so:recovery/root/system/lib64/libchrlog.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libdl.so:recovery/root/system/lib64/libdl.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libkeymaster_messages.so:recovery/root/system/lib64/libkeymaster_messages.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libdiskconfig.so:recovery/root/system/lib64/libdiskconfig.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libnl.so:recovery/root/system/lib64/libnl.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libnativehelper.so:recovery/root/system/lib64/libnativehelper.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libcrypto.so:recovery/root/system/lib64/libcrypto.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libkeymaster1.so:recovery/root/system/lib64/libkeymaster1.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libsysutils.so:recovery/root/system/lib64/libsysutils.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libz.so:recovery/root/system/lib64/libz.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libwifi_wapi_hisi.so:recovery/root/system/lib64/libwifi_wapi_hisi.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libHwedkmgr.so:recovery/root/system/lib64/libHwedkmgr.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libstdc++.so:recovery/root/system/lib64/libstdc++.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libnativebridge.so:recovery/root/system/lib64/libnativebridge.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libhardware.so:recovery/root/system/lib64/libhardware.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libteec.so:recovery/root/system/lib64/libteec.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libc.so:recovery/root/system/lib64/libc.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libssl.so:recovery/root/system/lib64/libssl.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libsigchain.so:recovery/root/system/lib64/libsigchain.so \
+        vendor/huawei/hi6250/recovery/system/lib64/liblogwrap.so:recovery/root/system/lib64/liblogwrap.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libart.so:recovery/root/system/lib64/libart.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libmini_md5.so:recovery/root/system/lib64/libmini_md5.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libext4_utils.so:recovery/root/system/lib64/libext4_utils.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libbinder.so:recovery/root/system/lib64/libbinder.so \
+        vendor/huawei/hi6250/recovery/system/lib64/hw/keystore.default.so:recovery/root/system/lib64/hw/keystore.default.so \
+        vendor/huawei/hi6250/recovery/system/lib64/hw/keystore.hi6250.so:recovery/root/system/lib64/hw/keystore.hi6250.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libbacktrace.so:recovery/root/system/lib64/libbacktrace.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libcutils.so:recovery/root/system/lib64/libcutils.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libm.so:recovery/root/system/lib64/libm.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libunwind.so:recovery/root/system/lib64/libunwind.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libsoftkeymaster.so:recovery/root/system/lib64/libsoftkeymaster.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libsparse.so:recovery/root/system/lib64/libsparse.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libfile_sharing_service.so:recovery/root/system/lib64/libfile_sharing_service.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libbase.so:recovery/root/system/lib64/libbase.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libc++.so:recovery/root/system/lib64/libc++.so \
+        vendor/huawei/hi6250/recovery/system/lib64/libhardware_legacy.so:recovery/root/system/lib64/libhardware_legacy.so 
+#
 #
 #
 PRODUCT_COPY_FILES += \
