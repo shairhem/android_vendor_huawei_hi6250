@@ -80,7 +80,9 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/recovery/system/lib64/libfile_sharing_service.so:recovery/root/system/lib64/libfile_sharing_service.so \
         vendor/huawei/hi6250/recovery/system/lib64/libbase.so:recovery/root/system/lib64/libbase.so \
         vendor/huawei/hi6250/recovery/system/lib64/libc++.so:recovery/root/system/lib64/libc++.so \
-        vendor/huawei/hi6250/recovery/system/lib64/libhardware_legacy.so:recovery/root/system/lib64/libhardware_legacy.so 
+        vendor/huawei/hi6250/recovery/system/lib64/libhardware_legacy.so:recovery/root/system/lib64/libhardware_legacy.so \
+        vendor/huawei/hi6250/recovery/sbin/supersu.zip:recovery/root/sbin/supersu.zip
+ 
 #
 #
 #
