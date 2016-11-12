@@ -1561,7 +1561,6 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hw/hwcomposer.hi6250.so:system/lib64/hw/hwcomposer.hi6250.so.bak \
         vendor/huawei/hi6250/lib64/hw/gatekeeper.hi6250.so:system/lib64/hw/gatekeeper.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/libcontrast.so:system/lib64/hw/libcontrast.so \
-        vendor/huawei/hi6250/lib64/hw/power.hi6250.so:system/lib64/hw/power.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/fm.bcm.hi6250.so:system/lib64/hw/fm.bcm.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/keystore.hi6250.so:system/lib64/hw/keystore.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/gps.hisi.default.so:system/lib64/hw/gps.hisi.default.so \
@@ -1853,7 +1852,6 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/hw/hwcomposer.hi6250.so:system/lib/hw/hwcomposer.hi6250.so.bak \
         vendor/huawei/hi6250/lib/hw/gatekeeper.hi6250.so:system/lib/hw/gatekeeper.hi6250.so \
         vendor/huawei/hi6250/lib/hw/libcontrast.so:system/lib/hw/libcontrast.so \
-        vendor/huawei/hi6250/lib/hw/power.hi6250.so:system/lib/hw/power.hi6250.so \
         vendor/huawei/hi6250/lib/hw/hw_af_extend.default.so:system/lib/hw/hw_af_extend.default.so \
         vendor/huawei/hi6250/lib/hw/fm.bcm.hi6250.so:system/lib/hw/fm.bcm.hi6250.so \
         vendor/huawei/hi6250/lib/hw/keystore.hi6250.so:system/lib/hw/keystore.hi6250.so \
