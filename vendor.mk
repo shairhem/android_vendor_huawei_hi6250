@@ -1563,7 +1563,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hw/libcontrast.so:system/lib64/hw/libcontrast.so \
         vendor/huawei/hi6250/lib64/hw/fm.bcm.hi6250.so:system/lib64/hw/fm.bcm.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/keystore.hi6250.so:system/lib64/hw/keystore.hi6250.so \
-        vendor/huawei/hi6250/lib64/hw/gps.hisi.default.so:system/lib64/hw/gps.hisi.default.so \
+        vendor/huawei/hi6250/lib64/hw/gps.hisi.default.so:system/lib64/hw/gps.hisi.so \
         vendor/huawei/hi6250/lib64/hw/gralloc.hi6250.so:system/lib64/hw/gralloc.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
         vendor/huawei/hi6250/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
@@ -1885,3 +1885,5 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/libfidoca.so:system/lib/libfidoca.so \
         vendor/huawei/hi6250/lib/libalConvert2Img.so:system/lib/libalConvert2Img.so \
         vendor/huawei/hi6250/lib/libperfhub.so:system/lib/libperfhub.so \
+        vendor/huawei/hi6250/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk:system/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk \
+	vendor/huawei/hi6260/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty
