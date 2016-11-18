@@ -1885,5 +1885,8 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/libfidoca.so:system/lib/libfidoca.so \
         vendor/huawei/hi6250/lib/libalConvert2Img.so:system/lib/libalConvert2Img.so \
         vendor/huawei/hi6250/lib/libperfhub.so:system/lib/libperfhub.so \
-        vendor/huawei/hi6250/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk:system/priv-app/gnss_supl20service_hisi/gnss_supl20service_hisi.apk \
-	vendor/huawei/hi6260/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty
+	vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty
+#
+# Prebuilt APKS
+#
+PRODUCT_PACKAGES := \ gnss_supl20service_hisi
