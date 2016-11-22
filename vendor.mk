@@ -1568,7 +1568,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
         vendor/huawei/hi6250/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
         vendor/huawei/hi6250/lib64/hw/camera.hi6250.so:system/lib64/hw/camera.hi6250.so \
-        vendor/huawei/hi6250/lib64/hw/copybit.hi6250.so:system/lib64/hw/copybit.hi6250.so \
+        vendor/huawei/hi6250/lib64/hw/copybit.hi6250.so:system/lib64/hw/copybit.real.so \
         vendor/huawei/hi6250/lib64/hw/bastet.hi6250.so:system/lib64/hw/bastet.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/sound_trigger.primary.default.so:system/lib64/hw/sound_trigger.primary.default.so \
         vendor/huawei/hi6250/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
