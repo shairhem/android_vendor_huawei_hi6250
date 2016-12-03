@@ -1549,6 +1549,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libsysrms_jni.so:system/lib64/libsysrms_jni.so \
         vendor/huawei/hi6250/lib64/libwpa_client_hisi.so:system/lib64/libwpa_client_hisi.so \
         vendor/huawei/hi6250/lib64/libvia-ril.so:system/lib64/libvia-ril.so \
+        vendor/huawei/hi6250/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
         vendor/huawei/hi6250/lib64/hw/memtrack.hi6250.so:system/lib64/hw/memtrack.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/fm.hisi.hi6250.so:system/lib64/hw/fm.hisi.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/fingerprint.hi6250.so:system/lib64/hw/fingerprint.hi6250.so \
@@ -1885,8 +1886,10 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/libfidoca.so:system/lib/libfidoca.so \
         vendor/huawei/hi6250/lib/libalConvert2Img.so:system/lib/libalConvert2Img.so \
         vendor/huawei/hi6250/lib/libperfhub.so:system/lib/libperfhub.so \
-	vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty
+	    vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty \
+	    vendor/huawei/hi6250/etc/libnfc_nxp_venus_L21.conf:system/etc/libnfc-nxp.conf \
+	    vendor/huawei/hi6250/etc/libnfc_brcm_venus_L21.conf:system/etc/libnfc-brcm.conf
 #
 # Prebuilt APKS
 #
-PRODUCT_PACKAGES := \ gnss_supl20service_hisi
+PRODUCT_PACKAGES := gnss_supl20service_hisi
