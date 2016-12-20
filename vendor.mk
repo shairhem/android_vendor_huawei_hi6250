@@ -5,25 +5,25 @@
 # To copy these over at install time instead of build time.
 #
 PRODUCT_COPY_FILES += \
-        vendor/huawei/hi6250/lib64/libion.so:override/lib64/libion.so \
-        vendor/huawei/hi6250/lib/libion.so:override/lib/libion.so \
-        vendor/huawei/hi6250/etc/wifi/p2p_supplicant_overlay.conf:override/etc/wifi/p2p_supplicant_overlay.conf \
-        vendor/huawei/hi6250/etc/wifi/wpa_supplicant_overlay.conf:override/etc/wifi/wpa_supplicant_overlay.conf \
-        vendor/huawei/hi6250/etc/wifi/wpa_supplicant.conf:override/etc/wifi/wpa_supplicant.conf  \
-        vendor/huawei/hi6250/lib64/libwpa_client_hisi.so:override/lib64/libwpa_client.so \
-        vendor/huawei/hi6250/vendor/lib64/libbt-vendor-hisi.so:override/vendor/lib64/libbt-vendor.so \
-        vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:override/vendor/lib/libbt-vendor.so \
-        vendor/huawei/hi6250/etc/bluetooth/bt_did.conf:override/etc/bluetooth/bt_did.conf \
-        vendor/huawei/hi6250/etc/bluetooth/bt_stack.conf:override/etc/bluetooth/bt_stack.conf \
-        vendor/huawei/hi6250/etc/bluetooth/auto_pair_devlist.conf:override/etc/bluetooth/auto_pair_devlist.conf \
-        vendor/huawei/hi6250/bin/rild:override/bin/rild \
-        vendor/huawei/hi6250/lib64/libril.so:override/lib64/libril.so \
-        vendor/huawei/hi6250/lib64/librilutils.so:override/lib64/librilutils.so \
-        vendor/huawei/hi6250/lib/libril.so:override/lib/libril.so \
-        vendor/huawei/hi6250/lib/librilutils.so:override/lib/librilutils.so \
-        vendor/huawei/hi6250/lib/libsensorservice.so:override/lib/libsensorservice.so \
-        vendor/huawei/hi6250/lib64/libsensorservice.so:override/lib64/libsensorservice.so \
-        vendor/huawei/hi6250/bin/hostapd_hisi:override/bin/hostapd \
+        vendor/huawei/hi6250/lib64/libion.so:/system/vendor/lib64/libion.so \
+        vendor/huawei/hi6250/lib/libion.so:system/vendor/lib/libion.so \
+        vendor/huawei/hi6250/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+        vendor/huawei/hi6250/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+        vendor/huawei/hi6250/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf  \
+        vendor/huawei/hi6250/lib64/libwpa_client_hisi.so:system/vendor/lib64/libwpa_client.so \
+        vendor/huawei/hi6250/vendor/lib64/libbt-vendor-hisi.so:system/vendor/lib64/libbt-vendor.so \
+        vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:system/vendor/lib/libbt-vendor.so \
+        vendor/huawei/hi6250/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+        vendor/huawei/hi6250/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+        vendor/huawei/hi6250/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+        vendor/huawei/hi6250/bin/rild:system/bin/rild \
+        vendor/huawei/hi6250/lib64/libril.so:system/vendor/lib64/libril.so \
+        vendor/huawei/hi6250/lib64/librilutils.so:system/vendor/lib64/librilutils.so \
+        vendor/huawei/hi6250/lib/libril.so:system/vendor/lib/libril.so \
+        vendor/huawei/hi6250/lib/librilutils.so:system/vendor/lib/librilutils.so \
+        vendor/huawei/hi6250/lib/libsensorservice.so:system/vendor/lib/libsensorservice.so \
+        vendor/huawei/hi6250/lib64/libsensorservice.so:system/vendor/lib64/libsensorservice.so \
+        vendor/huawei/hi6250/bin/hostapd_hisi:system/bin/hostapd
 
 
 # Meticulus:
@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
         vendor/huawei/hi6250/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
         vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:system/vendor/lib/libbt-vendor-hisi.so \
-        vendor/huawei/hi6250/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
         vendor/huawei/hi6250/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
         vendor/huawei/hi6250/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
         vendor/huawei/hi6250/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
