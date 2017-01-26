@@ -1887,7 +1887,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/libfidoca.so:system/lib/libfidoca.so \
         vendor/huawei/hi6250/lib/libalConvert2Img.so:system/lib/libalConvert2Img.so \
         vendor/huawei/hi6250/lib/libperfhub.so:system/lib/libperfhub.so \
-	    vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty \
+	    vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty.bak \
 	    vendor/huawei/hi6250/etc/libnfc_nxp_venus_L21.conf:system/etc/libnfc-nxp.conf \
 	    vendor/huawei/hi6250/etc/libnfc_brcm_venus_L21.conf:system/etc/libnfc-brcm.conf
 #
