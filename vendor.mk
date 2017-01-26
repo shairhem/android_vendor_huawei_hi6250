@@ -1515,6 +1515,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
         vendor/huawei/hi6250/lib64/libgralloc_ext.so:system/lib64/libgralloc_ext.so \
         vendor/huawei/hi6250/lib64/libdrmbitmap.huawei.so:system/lib64/libdrmbitmap.huawei.so \
+        vendor/huawei/hi6250/lib64/libshim_libcrypto.so:system/lib64/libshim_libcrypto.so \
         vendor/huawei/hi6250/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
         vendor/huawei/hi6250/lib64/lib_k3_ffmpeg.so:system/lib64/lib_k3_ffmpeg.so \
         vendor/huawei/hi6250/lib64/libFaceBeautyMeiwo.so:system/lib64/libFaceBeautyMeiwo.so \
@@ -1541,6 +1542,8 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libfm_interface.so:system/lib64/libfm_interface.so \
         vendor/huawei/hi6250/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
         vendor/huawei/hi6250/lib64/libssl2.so:system/lib64/libssl2.so \
+        vendor/huawei/hi6250/lib64/libshim_libssl.so:system/lib64/libshim_libssl.so \
+        vendor/huawei/hi6250/lib64/libshim_libssl2.so:system/lib64/libshim_libssl2.so \
         vendor/huawei/hi6250/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
         vendor/huawei/hi6250/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
         vendor/huawei/hi6250/lib64/liblowpowerplayer.so:system/lib64/liblowpowerplayer.so \
