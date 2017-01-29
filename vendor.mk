@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/librilutils.so:system/vendor/lib/librilutils.so \
         vendor/huawei/hi6250/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
         vendor/huawei/hi6250/lib64/libreference-ril.so:system/vendor/lib64/libreference-ril.so \
-        vendor/huawei/hi6250/lib/libsensorservice.so:system/vendor/lib/libsensorservice.so \
-        vendor/huawei/hi6250/lib64/libsensorservice.so:system/vendor/lib64/libsensorservice.so \
         vendor/huawei/hi6250/bin/hostapd_hisi:system/bin/hostapd
 
 
