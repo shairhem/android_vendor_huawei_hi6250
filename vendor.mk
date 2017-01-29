@@ -1562,10 +1562,10 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hw/libgnss_sensors_hisi.so:system/lib64/hw/libgnss_sensors_hisi.so \
         vendor/huawei/hi6250/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
         vendor/huawei/hi6250/lib64/hw/hwcomposer.hi6250.so:system/lib64/hw/hwcomposer.hi6250.so.bak \
-        vendor/huawei/hi6250/lib64/hw/gatekeeper.hi6250.so:system/lib64/hw/gatekeeper.hi6250.so.bak \
+        vendor/huawei/hi6250/lib64/hw/gatekeeper.hi6250.so:system/lib64/hw/gatekeeper.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/libcontrast.so:system/lib64/hw/libcontrast.so \
         vendor/huawei/hi6250/lib64/hw/fm.bcm.hi6250.so:system/lib64/hw/fm.bcm.hi6250.so \
-        vendor/huawei/hi6250/lib64/hw/keystore.hi6250.so:system/lib64/hw/keystore.hi6250.so.bak \
+        vendor/huawei/hi6250/lib64/hw/keystore.hi6250.so:system/lib64/hw/keystore.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/gps.hisi.default.so:system/lib64/hw/gps.hisi.so \
         vendor/huawei/hi6250/lib64/hw/gralloc.hi6250.so:system/lib64/hw/gralloc.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
@@ -1853,11 +1853,11 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so \
         vendor/huawei/hi6250/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
         vendor/huawei/hi6250/lib/hw/hwcomposer.hi6250.so:system/lib/hw/hwcomposer.hi6250.so.bak \
-        vendor/huawei/hi6250/lib/hw/gatekeeper.hi6250.so:system/lib/hw/gatekeeper.hi6250.so.bak \
+        vendor/huawei/hi6250/lib/hw/gatekeeper.hi6250.so:system/lib/hw/gatekeeper.hi6250.so \
         vendor/huawei/hi6250/lib/hw/libcontrast.so:system/lib/hw/libcontrast.so \
         vendor/huawei/hi6250/lib/hw/hw_af_extend.default.so:system/lib/hw/hw_af_extend.default.so \
         vendor/huawei/hi6250/lib/hw/fm.bcm.hi6250.so:system/lib/hw/fm.bcm.hi6250.so \
-        vendor/huawei/hi6250/lib/hw/keystore.hi6250.so:system/lib/hw/keystore.hi6250.so.bak \
+        vendor/huawei/hi6250/lib/hw/keystore.hi6250.so:system/lib/hw/keystore.hi6250.so \
         vendor/huawei/hi6250/lib/hw/gralloc.hi6250.so:system/lib/hw/gralloc.hi6250.so \
         vendor/huawei/hi6250/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
         vendor/huawei/hi6250/lib/hw/camera.hi6250.so:system/lib/hw/camera.hi6250.so.bak \
