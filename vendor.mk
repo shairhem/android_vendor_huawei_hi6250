@@ -1360,6 +1360,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libbt_factory_test_hisi.so:system/lib64/libbt_factory_test_hisi.so \
         vendor/huawei/hi6250/lib64/libHWCamCfgSvr_jni.so:system/lib64/libHWCamCfgSvr_jni.so \
         vendor/huawei/hi6250/lib64/libcamera_algo.so:system/lib64/libcamera_algo.so \
+        vendor/huawei/hi6250/lib64/libshim_libui.so:system/lib64/libshim_libui.so \
         vendor/huawei/hi6250/lib64/libhw_display_effect.so:system/lib64/libhw_display_effect.so \
         vendor/huawei/hi6250/lib64/libmrc_cg_mfdenoise.so:system/lib64/libmrc_cg_mfdenoise.so \
         vendor/huawei/hi6250/lib64/libhwgl.so:system/lib64/libhwgl.so \
