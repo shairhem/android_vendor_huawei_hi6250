@@ -566,10 +566,10 @@
 
   <path name="double-mic" >
       <ctl name="SMT_SIF_EN MIXER SIF_MIC1_EN" value="1" />
-      <ctl name="SMT_ADCR_PD MIXER AUXPGA" value="1" />
+      <ctl name="SMT_ADCL_PD MIXER AUXPGA" value="1" />
       <ctl name="HISSC_SMT_AUXPGA_MUTE" value="0" />
       <ctl name="SMT_MAINPGA_SEL MUX" value="MIC" />
-      <ctl name="SMT_ADCL_PD MIXER MAINPGA" value="1" />
+      <ctl name="SMT_ADCR_PD MIXER MAINPGA" value="1" />
       <ctl name="SMT_SIF_EN MIXER SIF_MIC2_EN" value="1" />
       <ctl name="HISSC_SMT_MAINPGA_MUTE" value="0" />
   </path>
