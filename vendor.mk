@@ -1170,20 +1170,27 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/etc/camera/smartae/ov8856/SmartAE.xml:system/etc/camera/smartae/ov8856/SmartAE.xml \
         vendor/huawei/hi6250/etc/scene_current_config.xml:system/etc/scene_current_config.xml \
         vendor/huawei/hi6250/etc/audio/maxim/maxim_VENUS_normal.xml:system/etc/audio/maxim/maxim_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/maxim/maxim_VENUS_normal.xml:system/etc/audio/maxim/maxim_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/maxim/dsp_coefficient.config:system/etc/audio/maxim/dsp_coefficient.config \
         vendor/huawei/hi6250/etc/audio/maxim/maxim_hi6250_normal.xml:system/etc/audio/maxim/maxim_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_default.xml:system/etc/audio/hi6402/mixer_paths_default.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_VENUS.xml:system/etc/audio/hi6402/mixer_paths_VENUS.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_VENUS.xml:system/etc/audio/hi6402/mixer_paths_VENUS2.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_default.xml:system/etc/audio/hi6402/pop_seq_default.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_hi3650.xml:system/etc/audio/hi6402/mixer_paths_hi3650.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_default.xml:system/etc/audio/hi6402/mixer_volumes_default.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_normal.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_normal.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_cmcciot.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_cmcciot.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_hi3650.xml:system/etc/audio/hi6402/pop_seq_hi3650.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_VENUS.xml:system/etc/audio/hi6402/pop_seq_VENUS.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_VENUS.xml:system/etc/audio/hi6402/pop_seq_VENUS2.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_unicomiot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_unicomiot.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_unicomiot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_unicomiot.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_hi3650_normal.xml:system/etc/audio/hi6402/mixer_volumes_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_ce.xml \
         vendor/huawei/hi6250/etc/audio/tracklogconfig/codectracklog.config:system/etc/audio/tracklogconfig/codectracklog.config \
         vendor/huawei/hi6250/etc/audio/tracklogconfig/soctracklog.config:system/etc/audio/tracklogconfig/soctracklog.config \
         vendor/huawei/hi6250/etc/audio/hissc/mixer_paths_hi6250.xml:system/etc/audio/hissc/mixer_paths_hi6250.xml \
@@ -1199,24 +1206,31 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/etc/audio/modem/modem_NEMO_normal.xml:system/etc/audio/modem/modem_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_hi6250_normal.xml:system/etc/audio/modem/modem_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_cmcciot.xml:system/etc/audio/modem/modem_VENUS_cmcciot.xml \
+        vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_cmcciot.xml:system/etc/audio/modem/modem_VENUS2_cmcciot.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_NEMO_cmcciot.xml:system/etc/audio/modem/modem_NEMO_cmcciot.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_normal.xml:system/etc/audio/modem/modem_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_normal.xml:system/etc/audio/modem/modem_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_default.xml:system/etc/audio/modem/modem_default.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_unicomiot.xml:system/etc/audio/modem/modem_VENUS_unicomiot.xml \
+        vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_unicomiot.xml:system/etc/audio/modem/modem_VENUS2_unicomiot.xml \
         vendor/huawei/hi6250/etc/audio/sws/sws_default.xml:system/etc/audio/sws/sws_default.xml \
         vendor/huawei/hi6250/etc/audio/sws/sws_VENUS_normal.xml:system/etc/audio/sws/sws_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/sws/sws_VENUS_normal.xml:system/etc/audio/sws/sws_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/sws/sws_NEMO_normal.xml:system/etc/audio/sws/sws_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_VENUS_normal.xml:system/etc/audio/algorithm/algorithm_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/algorithm/algorithm_VENUS_normal.xml:system/etc/audio/algorithm/algorithm_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_hi6250_normal.xml:system/etc/audio/algorithm/algorithm_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_NEMO_normal.xml:system/etc/audio/algorithm/algorithm_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_hi3650_normal.xml:system/etc/audio/algorithm/algorithm_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_default.xml:system/etc/audio/dts/dts_default.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_hi6250_normal.xml:system/etc/audio/dts/dts_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_VENUS_normal.xml:system/etc/audio/dts/dts_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/dts/dts_VENUS_normal.xml:system/etc/audio/dts/dts_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_NEMO_normal.xml:system/etc/audio/dts/dts_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_hi3650_normal.xml:system/etc/audio/dts/dts_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_hi3650_normal.xml:system/etc/audio/mbdrc/mbdrc_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_VENUS_normal.xml:system/etc/audio/mbdrc/mbdrc_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_VENUS_normal.xml:system/etc/audio/mbdrc/mbdrc_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_NEMO_normal.xml:system/etc/audio/mbdrc/mbdrc_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_default.xml:system/etc/audio/mbdrc/mbdrc_default.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_hi6250_normal.xml:system/etc/audio/mbdrc/mbdrc_hi6250_normal.xml \
@@ -1228,6 +1242,8 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_hi6250_coefficient.config:system/etc/audio/nxp/Tfa9895_hi6250_coefficient.config \
         vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_coefficient.config:system/etc/audio/nxp/Tfa9895_NEMO_coefficient.config \
         vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_GD.cnt:system/etc/audio/nxp/Tfa9895_NEMO_GD.cnt \
+        vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_GD.cnt:system/etc/audio/nxp/Tfa9895_VENUS2_NEMO_GD.cnt \
+        vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_GD.cnt:system/etc/audio/nxp/Tfa9895_VENUS2_GD.cnt \
         vendor/huawei/hi6250/etc/cfg_venus_l21_hisi.ini:system/etc/cfg_venus_l21_hisi.ini \
         vendor/huawei/hi6250/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
         vendor/huawei/hi6250/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
