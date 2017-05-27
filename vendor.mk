@@ -5,25 +5,25 @@
 # To copy these over at install time instead of build time.
 #
 PRODUCT_COPY_FILES += \
-        vendor/huawei/hi6250/lib64/libion.so:override/lib64/libion.so \
-        vendor/huawei/hi6250/lib/libion.so:override/lib/libion.so \
-        vendor/huawei/hi6250/etc/wifi/p2p_supplicant_overlay.conf:override/etc/wifi/p2p_supplicant_overlay.conf \
-        vendor/huawei/hi6250/etc/wifi/wpa_supplicant_overlay.conf:override/etc/wifi/wpa_supplicant_overlay.conf \
-        vendor/huawei/hi6250/etc/wifi/wpa_supplicant.conf:override/etc/wifi/wpa_supplicant.conf  \
-        vendor/huawei/hi6250/lib64/libwpa_client_hisi.so:override/lib64/libwpa_client.so \
-        vendor/huawei/hi6250/vendor/lib64/libbt-vendor-hisi.so:override/vendor/lib64/libbt-vendor.so \
-        vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:override/vendor/lib/libbt-vendor.so \
-        vendor/huawei/hi6250/etc/bluetooth/bt_did.conf:override/etc/bluetooth/bt_did.conf \
-        vendor/huawei/hi6250/etc/bluetooth/bt_stack.conf:override/etc/bluetooth/bt_stack.conf \
-        vendor/huawei/hi6250/etc/bluetooth/auto_pair_devlist.conf:override/etc/bluetooth/auto_pair_devlist.conf \
-        vendor/huawei/hi6250/bin/rild:override/bin/rild \
-        vendor/huawei/hi6250/lib64/libril.so:override/lib64/libril.so \
-        vendor/huawei/hi6250/lib64/librilutils.so:override/lib64/librilutils.so \
-        vendor/huawei/hi6250/lib/libril.so:override/lib/libril.so \
-        vendor/huawei/hi6250/lib/librilutils.so:override/lib/librilutils.so \
-        vendor/huawei/hi6250/lib/libsensorservice.so:override/lib/libsensorservice.so \
-        vendor/huawei/hi6250/lib64/libsensorservice.so:override/lib64/libsensorservice.so \
-        vendor/huawei/hi6250/bin/hostapd_hisi:override/bin/hostapd \
+        vendor/huawei/hi6250/lib64/libion.so:/system/vendor/lib64/libion.so \
+        vendor/huawei/hi6250/lib/libion.so:system/vendor/lib/libion.so \
+        vendor/huawei/hi6250/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+        vendor/huawei/hi6250/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+        vendor/huawei/hi6250/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf  \
+        vendor/huawei/hi6250/lib64/libwpa_client_hisi.so:system/vendor/lib64/libwpa_client.so \
+        vendor/huawei/hi6250/vendor/lib64/libbt-vendor-hisi.so:system/vendor/lib64/libbt-vendor.so \
+        vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:system/vendor/lib/libbt-vendor.so \
+        vendor/huawei/hi6250/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+        vendor/huawei/hi6250/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+        vendor/huawei/hi6250/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+        vendor/huawei/hi6250/bin/rild:system/bin/rild \
+        vendor/huawei/hi6250/lib64/libril.so:system/vendor/lib64/libril.so \
+        vendor/huawei/hi6250/lib64/librilutils.so:system/vendor/lib64/librilutils.so \
+        vendor/huawei/hi6250/lib/libril.so:system/vendor/lib/libril.so \
+        vendor/huawei/hi6250/lib/librilutils.so:system/vendor/lib/librilutils.so \
+        vendor/huawei/hi6250/lib/libreference-ril.so:system/vendor/lib/libreference-ril.so \
+        vendor/huawei/hi6250/lib64/libreference-ril.so:system/vendor/lib64/libreference-ril.so \
+        vendor/huawei/hi6250/bin/hostapd_hisi:system/bin/hostapd
 
 
 # Meticulus:
@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/recovery/system/lib64/libext4_utils.so:recovery/root/system/lib64/libext4_utils.so \
         vendor/huawei/hi6250/recovery/system/lib64/libbinder.so:recovery/root/system/lib64/libbinder.so \
         vendor/huawei/hi6250/recovery/system/lib64/hw/keystore.default.so:recovery/root/system/lib64/hw/keystore.default.so \
-        vendor/huawei/hi6250/recovery/system/lib64/hw/keystore.hi6250.so:recovery/root/system/lib64/hw/keystore.hi6250.so \
+        vendor/huawei/hi6250/recovery/system/lib64/hw/keystore.hi6250.so:recovery/root/system/lib64/hw/keystore.hi6250.so.bak \
         vendor/huawei/hi6250/recovery/system/lib64/libbacktrace.so:recovery/root/system/lib64/libbacktrace.so \
         vendor/huawei/hi6250/recovery/system/lib64/libcutils.so:recovery/root/system/lib64/libcutils.so \
         vendor/huawei/hi6250/recovery/system/lib64/libm.so:recovery/root/system/lib64/libm.so \
@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
         vendor/huawei/hi6250/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
         vendor/huawei/hi6250/vendor/lib/libbt-vendor-hisi.so:system/vendor/lib/libbt-vendor-hisi.so \
-        vendor/huawei/hi6250/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
         vendor/huawei/hi6250/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
         vendor/huawei/hi6250/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
         vendor/huawei/hi6250/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -1171,20 +1170,27 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/etc/camera/smartae/ov8856/SmartAE.xml:system/etc/camera/smartae/ov8856/SmartAE.xml \
         vendor/huawei/hi6250/etc/scene_current_config.xml:system/etc/scene_current_config.xml \
         vendor/huawei/hi6250/etc/audio/maxim/maxim_VENUS_normal.xml:system/etc/audio/maxim/maxim_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/maxim/maxim_VENUS_normal.xml:system/etc/audio/maxim/maxim_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/maxim/dsp_coefficient.config:system/etc/audio/maxim/dsp_coefficient.config \
         vendor/huawei/hi6250/etc/audio/maxim/maxim_hi6250_normal.xml:system/etc/audio/maxim/maxim_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_default.xml:system/etc/audio/hi6402/mixer_paths_default.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_VENUS.xml:system/etc/audio/hi6402/mixer_paths_VENUS.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_VENUS.xml:system/etc/audio/hi6402/mixer_paths_VENUS2.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_default.xml:system/etc/audio/hi6402/pop_seq_default.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_paths_hi3650.xml:system/etc/audio/hi6402/mixer_paths_hi3650.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_default.xml:system/etc/audio/hi6402/mixer_volumes_default.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_normal.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_normal.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_cmcciot.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_cmcciot.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_hi3650.xml:system/etc/audio/hi6402/pop_seq_hi3650.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_VENUS.xml:system/etc/audio/hi6402/pop_seq_VENUS.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/pop_seq_VENUS.xml:system/etc/audio/hi6402/pop_seq_VENUS2.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_unicomiot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_unicomiot.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_unicomiot.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_unicomiot.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_hi3650_normal.xml:system/etc/audio/hi6402/mixer_volumes_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml:system/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml \
+        vendor/huawei/hi6250/etc/audio/hi6402/mixer_volumes_VENUS_ce.xml:system/etc/audio/hi6402/mixer_volumes_VENUS2_ce.xml \
         vendor/huawei/hi6250/etc/audio/tracklogconfig/codectracklog.config:system/etc/audio/tracklogconfig/codectracklog.config \
         vendor/huawei/hi6250/etc/audio/tracklogconfig/soctracklog.config:system/etc/audio/tracklogconfig/soctracklog.config \
         vendor/huawei/hi6250/etc/audio/hissc/mixer_paths_hi6250.xml:system/etc/audio/hissc/mixer_paths_hi6250.xml \
@@ -1200,24 +1206,31 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/etc/audio/modem/modem_NEMO_normal.xml:system/etc/audio/modem/modem_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_hi6250_normal.xml:system/etc/audio/modem/modem_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_cmcciot.xml:system/etc/audio/modem/modem_VENUS_cmcciot.xml \
+        vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_cmcciot.xml:system/etc/audio/modem/modem_VENUS2_cmcciot.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_NEMO_cmcciot.xml:system/etc/audio/modem/modem_NEMO_cmcciot.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_normal.xml:system/etc/audio/modem/modem_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_normal.xml:system/etc/audio/modem/modem_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_default.xml:system/etc/audio/modem/modem_default.xml \
         vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_unicomiot.xml:system/etc/audio/modem/modem_VENUS_unicomiot.xml \
+        vendor/huawei/hi6250/etc/audio/modem/modem_VENUS_unicomiot.xml:system/etc/audio/modem/modem_VENUS2_unicomiot.xml \
         vendor/huawei/hi6250/etc/audio/sws/sws_default.xml:system/etc/audio/sws/sws_default.xml \
         vendor/huawei/hi6250/etc/audio/sws/sws_VENUS_normal.xml:system/etc/audio/sws/sws_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/sws/sws_VENUS_normal.xml:system/etc/audio/sws/sws_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/sws/sws_NEMO_normal.xml:system/etc/audio/sws/sws_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_VENUS_normal.xml:system/etc/audio/algorithm/algorithm_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/algorithm/algorithm_VENUS_normal.xml:system/etc/audio/algorithm/algorithm_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_hi6250_normal.xml:system/etc/audio/algorithm/algorithm_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_NEMO_normal.xml:system/etc/audio/algorithm/algorithm_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/algorithm/algorithm_hi3650_normal.xml:system/etc/audio/algorithm/algorithm_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_default.xml:system/etc/audio/dts/dts_default.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_hi6250_normal.xml:system/etc/audio/dts/dts_hi6250_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_VENUS_normal.xml:system/etc/audio/dts/dts_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/dts/dts_VENUS_normal.xml:system/etc/audio/dts/dts_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_NEMO_normal.xml:system/etc/audio/dts/dts_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/dts/dts_hi3650_normal.xml:system/etc/audio/dts/dts_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_hi3650_normal.xml:system/etc/audio/mbdrc/mbdrc_hi3650_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_VENUS_normal.xml:system/etc/audio/mbdrc/mbdrc_VENUS_normal.xml \
+        vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_VENUS_normal.xml:system/etc/audio/mbdrc/mbdrc_VENUS2_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_NEMO_normal.xml:system/etc/audio/mbdrc/mbdrc_NEMO_normal.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_default.xml:system/etc/audio/mbdrc/mbdrc_default.xml \
         vendor/huawei/hi6250/etc/audio/mbdrc/mbdrc_hi6250_normal.xml:system/etc/audio/mbdrc/mbdrc_hi6250_normal.xml \
@@ -1229,6 +1242,8 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_hi6250_coefficient.config:system/etc/audio/nxp/Tfa9895_hi6250_coefficient.config \
         vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_coefficient.config:system/etc/audio/nxp/Tfa9895_NEMO_coefficient.config \
         vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_GD.cnt:system/etc/audio/nxp/Tfa9895_NEMO_GD.cnt \
+        vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_GD.cnt:system/etc/audio/nxp/Tfa9895_VENUS2_NEMO_GD.cnt \
+        vendor/huawei/hi6250/etc/audio/nxp/Tfa9895_NEMO_GD.cnt:system/etc/audio/nxp/Tfa9895_VENUS2_GD.cnt \
         vendor/huawei/hi6250/etc/cfg_venus_l21_hisi.ini:system/etc/cfg_venus_l21_hisi.ini \
         vendor/huawei/hi6250/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
         vendor/huawei/hi6250/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
@@ -1361,6 +1376,8 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libbt_factory_test_hisi.so:system/lib64/libbt_factory_test_hisi.so \
         vendor/huawei/hi6250/lib64/libHWCamCfgSvr_jni.so:system/lib64/libHWCamCfgSvr_jni.so \
         vendor/huawei/hi6250/lib64/libcamera_algo.so:system/lib64/libcamera_algo.so \
+        vendor/huawei/hi6250/lib64/libshim_libui.so:system/lib64/libshim_libui.so \
+        vendor/huawei/hi6250/lib64/libshim_libgui.so:system/lib64/libshim_libgui.so \
         vendor/huawei/hi6250/lib64/libhw_display_effect.so:system/lib64/libhw_display_effect.so \
         vendor/huawei/hi6250/lib64/libmrc_cg_mfdenoise.so:system/lib64/libmrc_cg_mfdenoise.so \
         vendor/huawei/hi6250/lib64/libhwgl.so:system/lib64/libhwgl.so \
@@ -1514,6 +1531,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
         vendor/huawei/hi6250/lib64/libgralloc_ext.so:system/lib64/libgralloc_ext.so \
         vendor/huawei/hi6250/lib64/libdrmbitmap.huawei.so:system/lib64/libdrmbitmap.huawei.so \
+        vendor/huawei/hi6250/lib64/libshim_libcrypto.so:system/lib64/libshim_libcrypto.so \
         vendor/huawei/hi6250/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
         vendor/huawei/hi6250/lib64/lib_k3_ffmpeg.so:system/lib64/lib_k3_ffmpeg.so \
         vendor/huawei/hi6250/lib64/libFaceBeautyMeiwo.so:system/lib64/libFaceBeautyMeiwo.so \
@@ -1540,6 +1558,8 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libfm_interface.so:system/lib64/libfm_interface.so \
         vendor/huawei/hi6250/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
         vendor/huawei/hi6250/lib64/libssl2.so:system/lib64/libssl2.so \
+        vendor/huawei/hi6250/lib64/libshim_libssl.so:system/lib64/libshim_libssl.so \
+        vendor/huawei/hi6250/lib64/libshim_libssl2.so:system/lib64/libshim_libssl2.so \
         vendor/huawei/hi6250/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
         vendor/huawei/hi6250/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
         vendor/huawei/hi6250/lib64/liblowpowerplayer.so:system/lib64/liblowpowerplayer.so \
@@ -1549,6 +1569,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/libsysrms_jni.so:system/lib64/libsysrms_jni.so \
         vendor/huawei/hi6250/lib64/libwpa_client_hisi.so:system/lib64/libwpa_client_hisi.so \
         vendor/huawei/hi6250/lib64/libvia-ril.so:system/lib64/libvia-ril.so \
+        vendor/huawei/hi6250/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
         vendor/huawei/hi6250/lib64/hw/memtrack.hi6250.so:system/lib64/hw/memtrack.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/fm.hisi.hi6250.so:system/lib64/hw/fm.hisi.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/fingerprint.hi6250.so:system/lib64/hw/fingerprint.hi6250.so \
@@ -1568,7 +1589,7 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib64/hw/activity_recognition.default.so:system/lib64/hw/activity_recognition.default.so \
         vendor/huawei/hi6250/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
         vendor/huawei/hi6250/lib64/hw/camera.hi6250.so:system/lib64/hw/camera.hi6250.so \
-        vendor/huawei/hi6250/lib64/hw/copybit.hi6250.so:system/lib64/hw/copybit.hi6250.so \
+        vendor/huawei/hi6250/lib64/hw/copybit.hi6250.so:system/lib64/hw/copybit.real.so \
         vendor/huawei/hi6250/lib64/hw/bastet.hi6250.so:system/lib64/hw/bastet.hi6250.so \
         vendor/huawei/hi6250/lib64/hw/sound_trigger.primary.default.so:system/lib64/hw/sound_trigger.primary.default.so \
         vendor/huawei/hi6250/lib64/libmedia_jni.huawei.so:system/lib64/libmedia_jni.huawei.so \
@@ -1885,8 +1906,10 @@ PRODUCT_COPY_FILES += \
         vendor/huawei/hi6250/lib/libfidoca.so:system/lib/libfidoca.so \
         vendor/huawei/hi6250/lib/libalConvert2Img.so:system/lib/libalConvert2Img.so \
         vendor/huawei/hi6250/lib/libperfhub.so:system/lib/libperfhub.so \
-	vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty
+	    vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty \
+	    vendor/huawei/hi6250/etc/libnfc_nxp_venus_L21.conf:system/etc/libnfc-nxp.conf \
+	    vendor/huawei/hi6250/etc/libnfc_brcm_venus_L21.conf:system/etc/libnfc-brcm.conf
 #
 # Prebuilt APKS
 #
-PRODUCT_PACKAGES := \ gnss_supl20service_hisi
+PRODUCT_PACKAGES := gnss_supl20service_hisi
