@@ -1846,7 +1846,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/lib/libperfhub.so:system/lib/libperfhub.so \
     vendor/huawei/hi6250/xbin/gnss_watchlssd_thirdparty:system/xbin/gnss_watchlssd_thirdparty \
     vendor/huawei/hi6250/etc/libnfc_nxp_venus_L21.conf:system/etc/libnfc-nxp.conf \
-    vendor/huawei/hi6250/etc/libnfc_brcm_venus_L21.conf:system/etc/libnfc-brcm.conf
+    vendor/huawei/hi6250/etc/libnfc_brcm_venus_L21.conf:system/etc/libnfc-brcm.conf \
+    vendor/huawei/hi6250/phone.prop:system/phone.prop
 
 # GNSS service blob
 PRODUCT_PACKAGES := gnss_supl20service_hisi
